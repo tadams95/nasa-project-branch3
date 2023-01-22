@@ -1,4 +1,5 @@
-FROM node:lts-alpine
+# syntax=docker/dockerfile:1
+FROM node:18-alpine
 
 WORKDIR /app
 
@@ -18,6 +19,6 @@ COPY server/ server/
 
 USER node
 
-CMD [ "npm" "start", "-prefix", "server"]
+CMD [ "npm", "start", "-prefix", "server"]
 
 EXPOSE 8000
