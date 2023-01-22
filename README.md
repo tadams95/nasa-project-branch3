@@ -2,8 +2,6 @@
 
 The completed version of our NASA project from [Complete Node.js Developer: Zero to Mastery](https://academy.zerotomastery.io/p/learn-node-js?affcode=441520_1jw4f2ay).
 
-Test Change
-
 ## Getting Started
 
 1. Ensure you have Node.js installed.
@@ -24,6 +22,7 @@ Test Change
 
 ## Running the Tests
 
-To run any automated tests, run `npm test`. This will: 
-* Run all the client-side tests: `npm test --prefix client`
-* Run all the server-side tests: `npm test --prefix server` 
+To run any automated tests, run `npm test`. This will:
+
+- Run all the client-side tests: `npm test --prefix client`
+- Run all the server-side tests: `npm test --prefix server`
