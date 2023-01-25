@@ -17,6 +17,7 @@ The completed version of our NASA project from [Complete Node.js Developer: Zero
 ## Docker
 
 1. Ensure you have the latest version of Docker installed
+1a. If you built this project with an Apple M1 Chip, please read this article: https://betterprogramming.pub/how-to-actually-deploy-docker-images-built-on-a-m1-macs-with-apple-silicon-a35e39318e97
 2. Run `docker build -t nasa-project .`
 3. Run `docker run -it -p 8000:8000 nasa-project`
 
